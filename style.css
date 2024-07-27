@@ -1,0 +1,283 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+/* carousal */
+.carousel-item h1{
+    font-size: 50px;
+    color: rgb(253, 251, 251);
+}
+.carousel-item p{
+    font-size: 20px;
+}
+/* navbar */
+.nav-links
+{
+ text-decoration: none;
+ list-style-type: none; 
+ display: flex;
+ gap: 15px;
+}
+.fa-brands:hover{
+    color: blue;
+    cursor: pointer;
+    transform: translateY(5px);
+
+}
+.re:hover{
+    color: yellow;
+    cursor: pointer;
+    transform: translateY(5px);
+
+
+}
+.nop{
+    color: rgb(197, 83, 42);
+    font-family: "Kalnia Glaze", serif;
+
+}
+.nop:hover
+{
+ color: red;
+ cursor: pointer;
+ font-style: italic;
+}
+
+
+.navbar
+{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: -50px;
+    margin-top: -30px;
+    background-color: rgb(245, 245, 245);
+}
+#log
+{
+    position: absolute;
+    margin-left: 80px;
+    margin-top: -20px;
+    font-family: "Kalnia Glaze", serif;
+    color: brown;
+}
+
+
+/* next */
+#res
+{
+text-align: center;
+margin-left: -50px;
+color: rgb(31, 31, 144);
+text-decoration: none;
+color: brown;
+margin: 30px;
+}
+#res:hover{
+    cursor: pointer;
+    transform: translateY(5px);
+    font-size: 50px;
+    color: orange;
+
+}
+.s{
+color: grey;
+font-size: 20px;
+font-weight: 800;
+}
+#btn:hover{
+    background-color: brown;
+    color: whitesmoke;
+    border-color: brown;
+}
+.dd1{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+/* card */
+.kookie
+{
+    display: flex;
+    margin-top: 10px;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+#hotel{
+    margin-left: 100px;
+}
+#resort{
+    margin-left: 100px;
+}
+.card:hover
+{
+ cursor: pointer;
+ transform: translateY(-8px);
+}
+/* 2nd card */
+.bunny1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-left: -50px;
+
+}
+.bunny{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+/* modal */
+#river
+{
+    
+    margin-top: 70px;
+    margin-left: -65px;
+    position: relative;
+}
+/* footer */
+footer
+{
+    background-color: whitesmoke;
+    padding: 100px;
+}
+
+#uniq
+{
+ 
+ list-style-type: none;
+}
+#uniqu
+{
+    list-style-type: none;
+}
+#unique
+{
+    list-style-type: none;
+}
+a{
+    /* text-decoration: underline; */
+    color: white;
+}
+
+.parent
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: space-evenly;
+}
+footer {
+    background: lightskyblue;
+    color: #fff;
+    padding: 40px 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.fa-brands,.fa-envelope{
+    font-weight: 900;
+    font-size: 30px;
+    color: brown;
+}
+.fa-envelope:hover{
+    color: blue;
+    cursor: pointer;
+    transform: translatey(5px);
+}
+.fa-brands:hover{
+    color: blue;
+    cursor: pointer;
+    transform: translatey(5px);
+}
+.fa-star{
+    text-align: center;
+}
+.fa-star:hover{
+    font-size: 30px;
+    font-weight: 800;
+    color: brown;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 200px;
+    margin: 30px;
+    margin-top: 30px;
+}
+
+.footer-section h4 {
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+    color: black;
+}
+.foo{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+#logi
+{
+   
+    margin-left: -130px;
+    margin-top: 20px;
+    font-family: "Kalnia Glaze", serif;
+    color: #ff04ab;
+}
+h1{
+    font-family: "Playfair Display", serif;
+}
+@media screen and (max-width:768px) {
+   .kookie{
+     flex-direction:column;
+     align-items:center
+   }
+   .bunny1{
+    flex-direction: column;
+    align-items: center;
+}
+.bunny{
+    flex-direction: column;
+    align-items: center;
+}
+#resort{
+    margin-left: 1px;
+}
+#hotel{
+    margin-left: 1px;
+}
+.nav-links{
+    flex-direction: column;
+    }
+    .navbar{
+        flex-direction: column;
+    }
+}
+html{
+    scroll-behavior: smooth;
+}
